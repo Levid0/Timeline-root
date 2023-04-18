@@ -9,9 +9,9 @@ const getItems = () =>
 
 
 const Timeline = () => {
-  const [items, setItems] = React.useState(getItems);
+  const [items,] = React.useState(getItems);
   const [selected, setSelected] = React.useState([]);
-  const [position, setPosition] = React.useState(0);
+  //const [position, setPosition] = React.useState(0);
 
   const isItemSelected = (id) => !!selected.find((el) => el === id);
 
