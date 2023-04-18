@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Timeline from "./pages/Timeline";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
-import "./index.css"
+import "./input.css"
 
 export default function App() {
   return (

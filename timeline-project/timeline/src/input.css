@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
 body {
   margin: 0;
@@ -10,6 +14,9 @@ body {
   font-size: 240%;
 }
 
+.bound{
+  height: 150px;
+}
 .flex-gap{
   gap:10px;
 }
@@ -37,6 +44,3 @@ code {
     monospace;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
