@@ -7,7 +7,7 @@ import Timeline from "./pages/Timeline";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import "./index.css"
-import 'react-horizontal-scrolling-menu/dist/styles.css';
+
 export default function App() {
   return (
     <BrowserRouter>
