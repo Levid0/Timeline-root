@@ -14,6 +14,26 @@ body {
   font-size: 240%;
 }
 
+.circle{
+  width:6vh;
+  height:6vh;
+  border-radius: 3vh;
+  background-color: #ee6e05;
+  position:relative;
+  left:14vw;
+  top:-4vw
+}
+.timeline{
+  height:3vh;
+  width:110vw;
+  position: relative;
+  left:20vw;
+}
+.card{
+  width:80vw;
+  height:80vh;
+  margin-left: 13vw;
+}
 .bound{
   height: 150px;
 }
