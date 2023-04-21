@@ -5,7 +5,7 @@ const Home = () => {
     function navigateTimeline(){
         navigate("/timeline")
     }
-    return <div class="flex flex-vertical flex-centre centre flex-gap" onClick={navigateTimeline}>
+    return <div class="flex flex-vertical flex-centre centre flex-gap centre" onClick={navigateTimeline}>
         <div class="title">Immigration Detention Timeline</div>
         <div style={{fontSize: "150%"}}>with</div>
         <img src={logo} alt="logo" class="logo-intro"></img>
