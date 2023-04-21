@@ -7,6 +7,7 @@ import Timeline from "./pages/Timeline";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import "./input.css"
+import "./timeline.css"
 
 export default function App() {
   return (
@@ -25,3 +26,5 @@ export default function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
+//npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
