@@ -23,12 +23,8 @@
 }
 
 .timeline-group{
-    display:grid;
     /* grid-template-rows: min-content; */
-    grid-template-rows: repeat(11, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-
+    justify-content: space-between;
     padding:2vh 3vw 2vh 3vw;
     border:2px solid hotpink;
     border-radius: 5px;
@@ -45,14 +41,23 @@
     background-color: black;
     border-top: 3px ridge whitesmoke;
     border-bottom: 3px ridge whitesmoke;
+    height:3vh;
+    width:90vw;
+}
+
+.line-group-start{
+    width:70vw;
+    border-left: 3px ridge white;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
 }
 
 .circle-group{
-    width:5vh;
-    height:5vh;
+    width:6vh;
+    height:6vh;
     background-color: black;
     border: 3px solid rgb(143, 40, 0);
-    border-radius: 2vh;
+    border-radius: 2.5vh;
 }
 
 
