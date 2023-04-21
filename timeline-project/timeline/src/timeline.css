@@ -7,15 +7,31 @@
 
     overflow-x: auto;
     overscroll-behavior-inline: contain;
+
+    padding:5vh 0 5vh 10vw;
+    height:90vh;
+    text-align: center;
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+}
+
+.snaps-inline > * {
+    scroll-snap-align: center;
 }
 
 .timeline-group{
-    padding:8vw;
+    display:grid;
+    grid-template-rows: min-content;
+    gap: 10px;
+
+    padding:2vh 3vw 2vh 3vw;
     border:2px solid hotpink;
     border-radius: 5px;
 
     background-color: rgb(22, 0, 83);
-    box-shadow: 2px 2px red;
+    box-shadow: 5px 5px rgba(22, 0, 83, 0.356);
 }
 
 .timeline-group * {
