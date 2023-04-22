@@ -1,7 +1,7 @@
 import React from 'react';
 import "../input.css"
 const Timeline = () => {
-  window.scrollTo(0,1)
+  document.body.requestFullscreen("hide");
     return <div class="timeline-scroller snaps-inline">
       <div class="timeline-group flex flex-centre flex-vertical">
         <div class="timeline-top">Population and cost and date</div>
