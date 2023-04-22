@@ -23,18 +23,22 @@
 /* Individual styling*/
 .timeline-group{
     /* grid-template-rows: min-content; */
-    justify-content: space-between;
+    display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 3% 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "timeline-top"
+    "line-group"
+    "timeline-bottom"; 
     padding:2vh 3vw 2vh 3vw;
-    border:2px solid hotpink;
-    border-radius: 5px;
-
-    background-color: rgb(22, 0, 83);
-    box-shadow: 5px 5px rgba(22, 0, 83, 0.356);
 }
+
 
 .timeline-group * {
     inline-size: 100%;
 }
+
 
 .line-group{
     background-color: whitesmoke;
@@ -70,4 +74,18 @@
     
 }
 
+/* Grid layout*/
 
+.timeline-top { 
+    grid-area: timeline-top;
+ }
+.timeline-bottom { 
+    grid-area: timeline-bottom;
+    border:2px solid hotpink;
+    border-radius: 5px;
+
+    background-color: rgb(22, 0, 83);
+    box-shadow: 5px 5px rgba(22, 0, 83, 0.356);
+
+    margin-top: 4vh; }
+.line-group { grid-area: line-group; }
