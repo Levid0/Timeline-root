@@ -1,9 +1,9 @@
 import React from 'react';
 import "../input.css"
-
+import logo from "../images/logo.png"
 const Timeline = () => {
     return <div>
-      
+      <img src={logo} alt="logo" class="absolute top-right"></img>
     <div class="timeline-scroller snaps-inline ">
       <div class="timeline-group flex flex-centre flex-vertical">
         <div class="timeline-top">Population and cost and date</div>
