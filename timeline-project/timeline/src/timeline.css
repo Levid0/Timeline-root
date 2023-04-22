@@ -1,3 +1,4 @@
+/* General timeline styling*/
 .timeline-scroller{
     display:grid;
     grid-auto-flow:column;
@@ -12,16 +13,14 @@
     height:83vh;
     text-align: center;
 }
-
 .snaps-inline{
     scroll-snap-type: inline mandatory;
 }
-
 .snaps-inline > * {
     scroll-snap-align: center;
     scroll-padding-inline: 7vw;
 }
-
+/* Individual styling*/
 .timeline-group{
     /* grid-template-rows: min-content; */
     justify-content: space-between;
@@ -58,6 +57,17 @@
     background-color: black;
     border: 3px solid rgb(143, 40, 0);
     border-radius: 2.5vh;
+}
+
+/* Logo styling*/
+.top-right{
+    height:3vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:1vh
+    
 }
 
 

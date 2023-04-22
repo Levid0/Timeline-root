@@ -1,7 +1,10 @@
 import React from 'react';
 import "../input.css"
+
 const Timeline = () => {
-    return <div class="timeline-scroller snaps-inline ">
+    return <div>
+      
+    <div class="timeline-scroller snaps-inline ">
       <div class="timeline-group flex flex-centre flex-vertical">
         <div class="timeline-top">Population and cost and date</div>
         <div class="timeline-second"></div>
@@ -66,6 +69,7 @@ const Timeline = () => {
         <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
       </div>
       
+    </div>
     </div>
   };
   
