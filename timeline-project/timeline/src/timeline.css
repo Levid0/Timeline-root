@@ -8,8 +8,8 @@
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 
-    padding:5vh 0 5vh 10vw;
-    height:90vh;
+    padding:5vh 0 10vh 10vw;
+    height:85vh;
     text-align: center;
 }
 
