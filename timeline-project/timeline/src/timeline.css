@@ -37,9 +37,9 @@
 }
 
 .line-group{
-    background-color: black;
-    border-top: 3px ridge whitesmoke;
-    border-bottom: 3px ridge whitesmoke;
+    background-color: whitesmoke;
+   /* border-top: 3px ridge rgb(38, 0, 109);
+    border-bottom: 3px ridge rgb(38, 0, 109); */
     height:3vh;
     width:90vw;
 }
@@ -54,7 +54,7 @@
 .circle-group{
     width:6vh;
     height:6vh;
-    background-color: black;
+    background-color: whitesmoke;
     border: 3px solid rgb(143, 40, 0);
     border-radius: 2.5vh;
 }
