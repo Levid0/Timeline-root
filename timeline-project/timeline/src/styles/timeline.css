@@ -48,6 +48,7 @@ width:70vw;
    /* border-top: 3px ridge rgb(38, 0, 109);
     border-bottom: 3px ridge rgb(38, 0, 109); */
     height:3vh;
+    box-shadow: 2px 2px grey;
     
 }
 
