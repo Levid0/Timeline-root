@@ -2,7 +2,7 @@
 .timeline-scroller{
     display:grid;
     grid-auto-flow:column;
-    grid-auto-columns: 70%;
+    /*grid-auto-columns: 70%;*/
     
 
 
@@ -20,6 +20,11 @@
     scroll-snap-align: center;
     /*scroll-padding-inline: 7vw;*/
 }
+
+.padding-left{
+
+    width:30vw;
+}
 /* Individual styling*/
 .timeline-group{
     /* grid-template-rows: min-content; */
@@ -31,7 +36,8 @@
     "timeline-top"
     "line-group"
     "timeline-bottom"; 
-    inline-size: 100%;
+inline-size: 100%;
+width:70vw;
 }
 
 
