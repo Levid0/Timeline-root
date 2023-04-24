@@ -13,7 +13,9 @@ const Timeline = () => {
        return <div class="timeline-group ">
         <div class="timeline-top">Population:{card.population} <br></br> Cost:{card.cost}</div>
         <div class={`line-group flex flex-centre ${card.id===0?"line-group-start":""}`}>
-          <div class="circle-group">{card.year}</div>
+          <div class="circle-group flex">
+            <div class="year-text">{card.year}</div>
+          </div>
         </div>
         <div class="timeline-bottom flex flex-vertical">
           <div class="card-title">{card.title}</div>
