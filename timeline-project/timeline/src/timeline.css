@@ -9,7 +9,7 @@
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 
-    padding:3vh 0 12vh 0;
+    padding:3vh 0 12vh 10vw;
     height:83vh;
     text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 .snaps-inline > * {
     scroll-snap-align: center;
-    scroll-padding-inline: 7vw;
+    /*scroll-padding-inline: 7vw;*/
 }
 /* Individual styling*/
 .timeline-group{
@@ -32,12 +32,10 @@
     "line-group"
     "timeline-bottom"; 
     padding:2vh 3vw 2vh 3vw;
-}
-
-
-.timeline-group * {
     inline-size: 100%;
 }
+
+
 
 
 .line-group{
@@ -45,7 +43,7 @@
    /* border-top: 3px ridge rgb(38, 0, 109);
     border-bottom: 3px ridge rgb(38, 0, 109); */
     height:3vh;
-    width:70vw;
+    
 }
 
 .line-group-start{
