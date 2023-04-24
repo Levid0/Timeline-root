@@ -9,7 +9,7 @@
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 
-    padding:3vh 0 12vh 10vw;
+    padding:3vh 0 12vh 0vw;
     height:83vh;
     text-align: center;
 }
@@ -51,6 +51,7 @@
     border-top-left-radius: 3vw;
     border-bottom-left-radius: 3vw;
 }
+
 
 .circle-group{
     width:6vh;
