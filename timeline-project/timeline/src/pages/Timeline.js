@@ -1,7 +1,8 @@
 import React from 'react';
-import "../input.css"
+import "../styles/input.css"
 import logo from "../images/logo.png"
 import dataPreviews from "./data-previews"
+import "../styles/dataPreviews.css"
 const Timeline = () => {
     return <div>
       <img src={logo} alt="logo" class="absolute top-right"></img>
@@ -14,52 +15,12 @@ const Timeline = () => {
         <div class={`line-group flex flex-centre ${card.id===0?"line-group-start":""}`}>
           <div class="circle-group">{card.year}</div>
         </div>
-        <div class="timeline-bottom">{card.Title}</div>
+        <div class="timeline-bottom flex flex-vertical">
+          <div class="card-title">{card.title}</div>
+          <div class="card-text">{card.text}</div>
+          </div>
       </div>
       })}
-      
-      <div class="timeline-group ">
-        <div class="timeline-top">Population and cost and date</div>
-        <div class="line-group flex flex-centre ">
-          <div class="circle-group"></div>
-        </div>
-        <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
-      </div>
-      <div class="timeline-group ">
-        <div class="timeline-top">Population and cost and date</div>
-        <div class="line-group flex flex-centre ">
-          <div class="circle-group"></div>
-        </div>
-        <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
-      </div>
-      <div class="timeline-group ">
-        <div class="timeline-top">Population and cost and date</div>
-        <div class="line-group flex flex-centre ">
-          <div class="circle-group"></div>
-        </div>
-        <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
-      </div>
-      <div class="timeline-group ">
-        <div class="timeline-top">Population and cost and date</div>
-        <div class="line-group flex flex-centre ">
-          <div class="circle-group"></div>
-        </div>
-        <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
-      </div>
-      <div class="timeline-group ">
-        <div class="timeline-top">Population and cost and date</div>
-        <div class="line-group flex flex-centre ">
-          <div class="circle-group"></div>
-        </div>
-        <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
-      </div>
-      <div class="timeline-group ">
-        <div class="timeline-top">Population and cost and date</div>
-        <div class="line-group flex flex-centre ">
-          <div class="circle-group"></div>
-        </div>
-        <div class="timeline-bottom">Clickable thinggggg fhjd il snmdlvknsdv jlnj sdg</div>
-      </div>
       
       </div>
     </div>

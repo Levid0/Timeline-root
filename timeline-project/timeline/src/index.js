@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 import Timeline from "./pages/Timeline";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
-import "./input.css"
-import "./timeline.css"
+import "./styles/input.css"
+import "./styles/timeline.css"
 
 export default function App() {
   return (

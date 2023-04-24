@@ -4,44 +4,66 @@ const previews=[
     population:2000,
     cost:1000,
     year:1872,
-    Title:"It all begins"
+    title:"It all begins",
+    text:"In 1872, an american publication publishes the article..."
 },
 {
     id:1,
     population:2000,
     cost:1000,
-    year:1872,
-    Title:"It all begins"
-},
-{
-    id:1,
-    population:2000,
-    cost:1000,
-    year:1872,
-    Title:"It all begins"
-},
-{
-    id:1,
-    population:2000,
-    cost:1000,
-    year:1872,
-    Title:"It all begins"
-},
-{
-    id:1,
-    population:2000,
-    cost:1000,
-    year:1872,
-    Title:"It all begins"
-},
-{
-    id:1,
-    population:2000,
-    cost:1000,
-    year:1872,
-    Title:"It all begins"
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
 },
 
+{
+    id:1,
+    population:2000,
+    cost:1000,
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
+},
+{
+    id:1,
+    population:2000,
+    cost:1000,
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
+},
+{
+    id:1,
+    population:2000,
+    cost:1000,
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
+},
+{
+    id:1,
+    population:2000,
+    cost:1000,
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
+},
+{
+    id:1,
+    population:2000,
+    cost:1000,
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
+},
+{
+    id:1,
+    population:2000,
+    cost:1000,
+    year:1892,
+    title:"US passes discriminatory law",
+    text:"First ever law to discriminte against an immigrant based off of their origin country"
+},
 
 ]
 
