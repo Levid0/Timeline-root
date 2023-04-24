@@ -31,7 +31,6 @@
     "timeline-top"
     "line-group"
     "timeline-bottom"; 
-    padding:2vh 3vw 2vh 3vw;
     inline-size: 100%;
 }
 
@@ -76,6 +75,7 @@
 
 .timeline-top { 
     grid-area: timeline-top;
+    margin:2vh 3vw 0 3vw
  }
 .timeline-bottom { 
     grid-area: timeline-bottom;
@@ -85,5 +85,5 @@
     background-color: rgb(22, 0, 83);
     box-shadow: 5px 5px rgba(22, 0, 83, 0.356);
 
-    margin-top: 4vh; }
+    margin: 4vh 3vw 0 3vw; }
 .line-group { grid-area: line-group; }
