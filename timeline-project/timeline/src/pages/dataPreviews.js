@@ -17,7 +17,7 @@ const previews=[
 },
 
 {
-    id:1,
+    id:2,
     population:2000,
     cost:1000,
     year:1892,
@@ -25,7 +25,7 @@ const previews=[
     text:"First ever law to discriminte against an immigrant based off of their origin country"
 },
 {
-    id:1,
+    id:3,
     population:2000,
     cost:1000,
     year:1892,
@@ -33,7 +33,7 @@ const previews=[
     text:"First ever law to discriminte against an immigrant based off of their origin country"
 },
 {
-    id:1,
+    id:4,
     population:2000,
     cost:1000,
     year:1892,
@@ -41,7 +41,7 @@ const previews=[
     text:"First ever law to discriminte against an immigrant based off of their origin country"
 },
 {
-    id:1,
+    id:5,
     population:2000,
     cost:1000,
     year:1892,
@@ -49,7 +49,7 @@ const previews=[
     text:"First ever law to discriminte against an immigrant based off of their origin country"
 },
 {
-    id:1,
+    id:6,
     population:2000,
     cost:1000,
     year:1892,
@@ -57,7 +57,7 @@ const previews=[
     text:"First ever law to discriminte against an immigrant based off of their origin country"
 },
 {
-    id:1,
+    id:7,
     population:2000,
     cost:1000,
     year:1892,

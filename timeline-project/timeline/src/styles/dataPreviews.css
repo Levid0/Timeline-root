@@ -9,10 +9,12 @@
 .card-text{
     text-align: left;
     padding:2vh 3vw 0 3vw;
+    font-weight: 350;
 }
 .year-text{
     color: black;
     font-weight: 650;
-    font-size: 140%;
+    font-size: 4.5vw;
     margin: auto;
+    inline-size: 80%;
 }

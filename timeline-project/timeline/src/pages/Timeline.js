@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/input.css"
 import logo from "../images/logo.png"
-import dataPreviews from "./data-previews"
+import dataPreviews from "./dataPreviews"
 import "../styles/dataPreviews.css"
 const Timeline = () => {
     return <div>
