@@ -58,13 +58,24 @@ width:70vw;
     border-bottom-left-radius: 3vw;
 }
 
-
+.circle-shadow{
+    width:15vw;
+    height:6vh;
+    position: relative;
+  left: 7.5vw;
+  z-index: 0;
+  border-radius: 2.5vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
 .circle-group{
     width:15vw;
     height:6vh;
+    position: relative;
+    left: -7.5vw;
     background-color: whitesmoke;
     border: 3px solid rgb(143, 40, 0);
     border-radius: 2.5vh;
+    
 }
 
 /* Logo styling*/
