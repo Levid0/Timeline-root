@@ -3,23 +3,29 @@ import "../styles/input.css"
 import logo from "../images/logo.png"
 import dataPreviews from "./dataPreviews"
 import "../styles/dataPreviews.css"
+import { useNavigate } from 'react-router-dom';
+
 const Timeline = () => {
+  const navigate = useNavigate();
+  function handleClick(id){
+        navigate(`/timeline/${id}`)
+    }
     return <div>
-      <img src={logo} alt="logo" class="absolute top-right"></img>
-    <div class="timeline-scroller snaps-inline ">
-      <div class="padding-left"></div>
+      <img src={logo} alt="logo" className="absolute top-right"></img>
+    <div className="timeline-scroller snaps-inline ">
+      <div className="padding-left"></div>
       
       {dataPreviews.map((card)=>{
-       return <div class="timeline-group ">
-        <div class="timeline-top">Population:{card.population} <br></br> Cost:{card.cost}</div>
-        <div class={`line-group flex flex-centre ${card.id===0?"line-group-start":""}`}>
-          <div class="circle-group flex">
-            <div class="year-text">{card.year}</div>
+       return <div className="timeline-group " key={card.id}>
+        <div className="timeline-top">Population:{card.population} <br></br> Cost:{card.cost}</div>
+        <div className={`line-group flex flex-centre ${card.id===0?"line-group-start":""}`}>
+          <div className="circle-group flex">
+            <div className="year-text">{card.year}</div>
           </div>
         </div>
-        <div class="timeline-bottom flex flex-vertical">
-          <div class="card-title">{card.title}</div>
-          <div class="card-text">{card.text}</div>
+        <div className="timeline-bottom flex flex-vertical" key={card.id} onClick={() => handleClick(card.id)}>
+          <div className="card-title">{card.title}</div>
+          <div className="card-text">{card.text}</div>
           </div>
       </div>
       })}

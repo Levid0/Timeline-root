@@ -4,7 +4,7 @@ const Layout = () => {
   return (
     <>
     
-      <nav class="absolute">
+      <nav className="absolute">
         <ul>
           <li>
             <Link to="/">Home</Link>

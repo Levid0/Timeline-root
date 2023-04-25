@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Timeline from "./pages/Timeline";
-import Contact from "./pages/Contact";
+import Displayed from "./pages/displayedCard";
 import NoPage from "./pages/NoPage";
 import "./styles/input.css"
 import "./styles/timeline.css"
@@ -15,8 +15,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="timeline" element={<Timeline />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/timeline/:id" element={<Displayed/>} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
