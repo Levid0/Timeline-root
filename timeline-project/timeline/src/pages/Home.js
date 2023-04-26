@@ -9,6 +9,7 @@ const Home = () => {
         <div className="title">Immigration Detention Timeline</div>
         <div style={{fontSize: "150%"}}>with</div>
         <img src={logo} alt="logo" className="logo-intro"></img>
+        <div className="blink click-instructions">Please click anywhere to continue</div>
     </div>;
   };
   
