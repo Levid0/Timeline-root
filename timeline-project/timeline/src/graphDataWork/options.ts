@@ -2,9 +2,10 @@ const options = {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      /*legend: {
-        position: 'top' as const,
-      },*/
+      legend: {
+        display: false,
+        
+      },
       title: {
         display: false,
         
