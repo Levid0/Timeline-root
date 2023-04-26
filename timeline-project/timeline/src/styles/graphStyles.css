@@ -7,4 +7,6 @@
 .graph-individual{
     width:35vw;
     height:40vh;
+    position: relative;
+    right:5vw;
 }

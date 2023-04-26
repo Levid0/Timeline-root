@@ -1,3 +1,31 @@
 .returnButton{
-margin-top: 20vh;
+width:10vw ;
+height:10vw;
+position:absolute;
+right:5vw;
+top:5vw;
+background-color: #c91e00;
+border-radius: 2vw;
+padding:1vw;
+border: 2px solid black
+}
+
+.clk-title{
+    font-weight: 650;
+    font-size: 200%;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.clk-body{
+    padding: 5vh 5vw 13vh 5vw;
+    height:100vh
+}
+
+.clk-mainText{
+    font-weight: 400;
+    font-size: 110%;
+    padding: 0 5vw 0vh 0;
+    height:70vh;
+    overflow-y: auto;
 }

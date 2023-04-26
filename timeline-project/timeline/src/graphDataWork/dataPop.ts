@@ -11,7 +11,7 @@ function data(cardid){
           {
             label: 'Pop',
             data: [population[cardid].population],
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: 'rgb(235, 106, 0)',
           },
         ],
       };

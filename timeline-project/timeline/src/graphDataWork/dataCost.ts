@@ -10,7 +10,7 @@ function data(cardid){
           {
             label: 'Cost',
             data: [population[cardid].cost],
-            backgroundColor: 'rgba(53, 162, 235, 0.5)',
+            backgroundColor: 'rgb(0, 182, 46)',
           }
         ],
       };
