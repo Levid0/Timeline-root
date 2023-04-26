@@ -9,7 +9,7 @@ function data(cardid){
         labels,
         datasets: [
           {
-            label: 'Pop',
+            label: 'People detained this year',
             data: [population[cardid].population],
             backgroundColor: 'rgb(235, 106, 0)',
           },
